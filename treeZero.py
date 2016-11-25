@@ -18,8 +18,12 @@ class XmasTree(): # define our xmas tree as a Python class
 # A function to turn off any LED which is on.
 
     def all_off(self):
-        self.anode.close()
-        self.cathode.close()
+        #self.anode.close()
+        #self.cathode.close()
+        self.node1.close()
+        self.node2.close()
+        self.node3.close()
+        self.node4.close()
 
 # A function to turn on an LED
 # We pass in anode and cathode values
