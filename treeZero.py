@@ -80,6 +80,7 @@ class XmasTree(): # define our xmas tree as a Python class
             sleep(t)
             self.yellow_on()
             sleep(t)
+        self.last_off()
 
     def yellow_pulse(self,fade_in, fade_out, n):
         self.pwm_on(self.node3, self.node1, fade_in,fade_out,n)
